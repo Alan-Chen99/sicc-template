@@ -1,0 +1,14 @@
+[project]
+name = "stationeers-sicc-template"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = ["sicc"]
+
+[tool.uv.sources]
+sicc = { git = "https://github.com/Alan-Chen99/sicc.git" }
+
+[tool.pyright]
+exclude = [".venv"]
+reportWildcardImportFromLibrary = false
