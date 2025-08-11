@@ -133,7 +133,7 @@ wheels = [
 [[package]]
 name = "sicc"
 version = "0.1.0"
-source = { git = "https://github.com/Alan-Chen99/sicc.git#84908c4bf0d9449206c07071de298715395416c2" }
+source = { git = "https://github.com/Alan-Chen99/sicc.git#4d22a7cf3141dc1c3889de45216a7cf2c794ce67" }
 dependencies = [
     { name = "cappa" },
     { name = "networkx" },
