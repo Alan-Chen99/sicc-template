@@ -4,28 +4,28 @@ requires-python = ">=3.13"
 
 [[package]]
 name = "cappa"
-version = "0.29.1"
+version = "0.30.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "rich" },
     { name = "type-lens" },
     { name = "typing-extensions" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/8e/a1/22a5c9d47c7ef194cb7cc5a3290e0ec55bdd590b3585ec68efbcec399f0d/cappa-0.29.1.tar.gz", hash = "sha256:2f6e1cf53619e99d8b2ae431ed7ac5b81e7728f1aa42c3fc86d7bfb1f03de347", size = 309533, upload-time = "2025-07-31T16:55:41.428Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/37/4e/d53d1ea327812e85bbc97927dbfa069e0a869c8c63600d3728ec0b89d1ba/cappa-0.30.0.tar.gz", hash = "sha256:083b02ce0866fc4ee892e4e5a8b4ac3a02a435aef824ebc7041589d037e6aa7e", size = 309708, upload-time = "2025-08-11T19:53:51.896Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/e2/c8/90478014aa36d8732e387e44fd55c943e5eea06ad7f4ee367581b4d8a49f/cappa-0.29.1-py3-none-any.whl", hash = "sha256:db0ed5140c173684c8530417c2fc26eb7bdf26fb06e0ab561b83fe781ed21b0e", size = 67328, upload-time = "2025-07-31T16:55:40.132Z" },
+    { url = "https://files.pythonhosted.org/packages/3e/67/9b34f8c8f1b0ec9df55c9debba9b6bb16bcd2091d73dec2b98c172501fa7/cappa-0.30.0-py3-none-any.whl", hash = "sha256:11ab9e7113f5fd048d274c84c6c88713eb9b6a4878848c2a46f7815581d10068", size = 67528, upload-time = "2025-08-11T19:53:50.243Z" },
 ]
 
 [[package]]
 name = "markdown-it-py"
-version = "3.0.0"
+version = "4.0.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "mdurl" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/38/71/3b932df36c1a044d397a1f92d1cf91ee0a503d91e470cbd670aa66b07ed0/markdown-it-py-3.0.0.tar.gz", hash = "sha256:e3f60a94fa066dc52ec76661e37c851cb232d92f9886b15cb560aaada2df8feb", size = 74596, upload-time = "2023-06-03T06:41:14.443Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/5b/f5/4ec618ed16cc4f8fb3b701563655a69816155e79e24a17b651541804721d/markdown_it_py-4.0.0.tar.gz", hash = "sha256:cb0a2b4aa34f932c007117b194e945bd74e0ec24133ceb5bac59009cda1cb9f3", size = 73070, upload-time = "2025-08-11T12:57:52.854Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/42/d7/1ec15b46af6af88f19b8e5ffea08fa375d433c998b8a7639e76935c14f1f/markdown_it_py-3.0.0-py3-none-any.whl", hash = "sha256:355216845c60bd96232cd8d8c40e8f9765cc86f46880e43a8fd22dc1a1a8cab1", size = 87528, upload-time = "2023-06-03T06:41:11.019Z" },
+    { url = "https://files.pythonhosted.org/packages/94/54/e7d793b573f298e1c9013b8c4dade17d481164aa517d1d7148619c2cedbf/markdown_it_py-4.0.0-py3-none-any.whl", hash = "sha256:87327c59b172c5011896038353a81343b6754500a08cd7a4973bb48c6d578147", size = 87321, upload-time = "2025-08-11T12:57:51.923Z" },
 ]
 
 [[package]]
@@ -44,6 +44,15 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/6c/4f/ccdb8ad3a38e583f214547fd2f7ff1fc160c43a75af88e6aec213404b96a/networkx-3.5.tar.gz", hash = "sha256:d4c6f9cf81f52d69230866796b82afbccdec3db7ae4fbd1b65ea750feed50037", size = 2471065, upload-time = "2025-05-29T11:35:07.804Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/eb/8d/776adee7bbf76365fdd7f2552710282c79a4ead5d2a46408c9043a2b70ba/networkx-3.5-py3-none-any.whl", hash = "sha256:0030d386a9a06dee3565298b4a734b68589749a544acbb6c412dc9e2489ec6ec", size = 2034406, upload-time = "2025-05-29T11:35:04.961Z" },
+]
+
+[[package]]
+name = "nodeenv"
+version = "1.9.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/43/16/fc88b08840de0e0a72a2f9d8c6bae36be573e475a6326ae854bcc549fc45/nodeenv-1.9.1.tar.gz", hash = "sha256:6ec12890a2dab7946721edbfbcd91f3319c6ccc9aec47be7c7e6b7011ee6645f", size = 47437, upload-time = "2024-06-04T18:44:11.171Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/d2/1d/1b658dbd2b9fa9c4c9f32accbfc0205d532c8c6194dc0f2a4c0428e7128a/nodeenv-1.9.1-py2.py3-none-any.whl", hash = "sha256:ba11c9782d29c27c70ffbdda2d7415098754709be8a7056d79a737cd901155c9", size = 22314, upload-time = "2024-06-04T18:44:08.352Z" },
 ]
 
 [[package]]
@@ -118,6 +127,19 @@ wheels = [
 ]
 
 [[package]]
+name = "pyright"
+version = "1.1.403"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "nodeenv" },
+    { name = "typing-extensions" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/fe/f6/35f885264ff08c960b23d1542038d8da86971c5d8c955cfab195a4f672d7/pyright-1.1.403.tar.gz", hash = "sha256:3ab69b9f41c67fb5bbb4d7a36243256f0d549ed3608678d381d5f51863921104", size = 3913526, upload-time = "2025-07-09T07:15:52.882Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/49/b6/b04e5c2f41a5ccad74a1a4759da41adb20b4bc9d59a5e08d29ba60084d07/pyright-1.1.403-py3-none-any.whl", hash = "sha256:c0eeca5aa76cbef3fcc271259bbd785753c7ad7bcac99a9162b4c4c7daed23b3", size = 5684504, upload-time = "2025-07-09T07:15:50.958Z" },
+]
+
+[[package]]
 name = "rich"
 version = "14.1.0"
 source = { registry = "https://pypi.org/simple" }
@@ -133,7 +155,7 @@ wheels = [
 [[package]]
 name = "sicc"
 version = "0.1.0"
-source = { git = "https://github.com/Alan-Chen99/sicc.git#4d22a7cf3141dc1c3889de45216a7cf2c794ce67" }
+source = { git = "https://github.com/Alan-Chen99/sicc.git#129128e2f1fe83b06e52c8125baf0ac425e613e1" }
 dependencies = [
     { name = "cappa" },
     { name = "networkx" },
@@ -144,14 +166,22 @@ dependencies = [
 
 [[package]]
 name = "stationeers-sicc-template"
-version = "0.1.0"
+version = "0.1.1"
 source = { virtual = "." }
 dependencies = [
     { name = "sicc" },
 ]
 
+[package.dev-dependencies]
+dev = [
+    { name = "pyright" },
+]
+
 [package.metadata]
 requires-dist = [{ name = "sicc", git = "https://github.com/Alan-Chen99/sicc.git" }]
+
+[package.metadata.requires-dev]
+dev = [{ name = "pyright", specifier = ">=1.1.403" }]
 
 [[package]]
 name = "type-lens"
